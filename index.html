@@ -3,106 +3,123 @@
 
 <head>
     <title>Landing Roman Oscar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <section>
-        <div>
-            <div>
-                <div>
-                    <h1>Bienvenido a mi página personal</h1>
-                    <p>
-                        Mi nombre es Oscar de Jesús Roman Ruíz y en esta página podrás encontrar información sobre mis
-                        hobbies, y gustos personales
-                        de peliculas series y videojuegos, además de información para lograr contactarte conmigo. Creado
-                        para aplicaciones móviles ITSON - 2023.
+<body class="bg-body">
+    <section class="bg-section">
+        <div class="container pt-md-5 pb-md-5" id="landing">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="p-4 mb-4">Bienvenido a mi página personal</h1>
+                    <p class="mr-3 ml-3">
+                        Mi nombre es Oscar de Jesús Roman Ruíz y en esta página podrás encontrar información sobre mis hobbies, y gustos personales
+                        de peliculas series y videojuegos, además de información para lograr contactarte conmigo. Creado para aplicaciones móviles ITSON - 2023.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    
 
-
-    <section>
-        <div>
-            <div>
-                <div>
-                    <h1>Hobbies</h1>
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="row justify-content-center pt-3">
+                    <div class="col-md-6 m-auto div-seccion w-75 bg-light">
+                        <h1 class="ms-4 me-4 p-3 text-center">Hobbies</h1>
+                    </div>
                 </div>
+
+                <ul class="list-group w-75 m-auto mt-4">
+                    <li class="list-group-item bg-claro">Jugar videojuegos con amigos</li>
+                    <li class="list-group-item bg-claro">Escuchar música</li>
+                    <li class="list-group-item bg-claro">Leer libros de ciencia ficción</li>
+                    <li class="list-group-item bg-claro">Aprender de inteligencia artificial</li>
+                    <li class="list-group-item bg-claro">Hacer ejercicios aeróbicos</li>
+                </ul>
             </div>
 
-            <ul>
-                <li>Jugar videojuegos con amigos</li>
-                <li>Escuchar música</li>
-                <li>Leer libros de ciencia ficción</li>
-                <li>Aprender de inteligencia artificial</li>
-                <li>Hacer ejercicios aeróbicos</li>
-            </ul>
-        </div>
-
-        <div>
-            <div>
-                <h1>Peliculas favoritas</h1>
-            </div>
-        </div>
-
-        <ul>
-            <li>Interstellar</li>
-            <li>Ex machina</li>
-            <li>El código enigma</li>
-            <li>Sueños de fuga</li>
-            <li>Saga Spider-man</li>
-        </ul>
-        </div>
-
-        <div>
-            <div>
-                <div>
-                    <h1>Series favoritas</h1>
+            <div class="col-md-4 mb-3">
+                <div class="row justify-content-center pt-3">
+                    <div class="col-md-6 m-auto div-seccion w-75 bg-light">
+                        <h1 class="ms-4 me-4 p-3 text-center">Peliculas favoritas</h1>
+                    </div>
                 </div>
+
+                <ul class="list-group w-75 m-auto mt-4">
+                    <li class="list-group-item bg-claro">Interstellar</li>
+                    <li class="list-group-item bg-claro">Ex machina</li>
+                    <li class="list-group-item bg-claro">El código enigma</li>
+                    <li class="list-group-item bg-claro">Sueños de fuga</li>
+                    <li class="list-group-item bg-claro">Saga Spider-man</li>
+                </ul>
             </div>
-            <ul>
-                <li>Rompiendo malo</li>
-                <li>La oficina</li>
-                <li>Señor robot</li>
-                <li>Cosas extrañas</li>
-                <li>Tú</li>
-            </ul>
-        </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="row justify-content-center pt-3">
+                    <div class="col-md-6 m-auto div-seccion w-75 bg-light">
+                        <h1 class="ms-4 me-4 p-3 text-center">Series favoritas</h1>
+                    </div>
+                </div>
+
+                <ul class="list-group w-75 m-auto mt-4">
+                    <li class="list-group-item bg-claro">Rompiendo malo</li>
+                    <li class="list-group-item bg-claro">La oficina</li>
+                    <li class="list-group-item bg-claro">Señor robot</li>
+                    <li class="list-group-item bg-claro">Cosas extrañas</li>
+                    <li class="list-group-item bg-claro">Tú</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <div>
-        <section>
-            <div>
-                <div>
-                    <div>
-                        <h1>Contacto</h1>
+    <div class="container-fluid bg-claro">
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <div class="row justify-content-center pt-3">
+                        <div class="col-md-6 m-auto div-seccion w-75 bg-light">
+                            <h1 class="ms-4 me-4 p-3 text-center">Contacto</h1>
+                        </div>
                     </div>
+                    
+                    <div class="col-md-6 py-4 mx-auto w-75">
+
+                        <form id="contactForm">
+                      
+                          <div class="mb-3">
+                            <label class="form-label" for="name">Nombre</label>
+                            <input class="form-control" id="name" type="text" placeholder="Nombre..." />
+                          </div>
+                      
+                          <div class="mb-3">
+                            <label class="form-label" for="emailAddress">Correo electrónico</label>
+                            <input class="form-control" id="emailAddress" type="email" placeholder="Correo electrónico..." />
+                          </div>
+                      
+                          <div class="mb-3">
+                            <label class="form-label" for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Mensaje..." style="height: 10rem;"></textarea>
+                          </div>
+                      
+                          <div class="d-grid">
+                            <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+                          </div>
+                      
+                        </form>
+                      
+                      </div>
+                    
                 </div>
-                <div>
-                    <form id="contactForm">
-                        <div>
-                            <label for="name">Nombre</label>
-                            <input id="name" type="text" placeholder="Nombre..." />
-                        </div>
-                        <div>
-                            <label for="emailAddress">Correo electrónico</label>
-                            <input id="emailAddress" type="email" placeholder="Correo electrónico..." />
-                        </div>
-                        <div>
-                            <label for="message">Mensaje</label>
-                            <textarea id="message" type="text" placeholder="Mensaje..."
-                                style="height: 10rem;"></textarea>
-                        </div>
-                        <div>
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+    
             </div>
+        </section>
     </div>
-    </div>
+    
+
 </body>
 
 </html>
